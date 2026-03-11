@@ -1,0 +1,13 @@
+{
+  "name": "idle-alert",
+  "version": "1.0.0",
+  "description": "Plays a sound alert when Claude is idle and waiting for your input. Configurable delay and sound.",
+  "author": {
+    "name": "Pavel Shut",
+    "url": "https://github.com/spadarshut"
+  },
+  "homepage": "https://github.com/spadarshut/spadarskills/tree/main/idle-alert",
+  "repository": "https://github.com/spadarshut/spadarskills",
+  "license": "MIT",
+  "keywords": ["notification", "sound", "idle", "alert", "productivity"]
+}

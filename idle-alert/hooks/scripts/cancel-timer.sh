@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-PIDFILE="/tmp/claude-nudge-hitl.pid"
-SESSION_FILE="/tmp/claude-nudge-hitl.session"
+PIDFILE="/tmp/claude-idle-alert.pid"
+SESSION_FILE="/tmp/claude-idle-alert.session"
 
 # Read session_id from hook input JSON
 INPUT=$(cat)
