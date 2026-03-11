@@ -1,0 +1,13 @@
+{
+  "name": "nudge-hitl",
+  "version": "1.0.0",
+  "description": "Plays a sound nudge when Claude finishes and is waiting for your input. Cancels automatically when you return to the terminal.",
+  "author": {
+    "name": "Pavel Shut",
+    "url": "https://github.com/spadarshut"
+  },
+  "homepage": "https://github.com/spadarshut/spadarskills/tree/main/nudge-hitl",
+  "repository": "https://github.com/spadarshut/spadarskills",
+  "license": "MIT",
+  "keywords": ["notification", "sound", "hitl", "human-in-the-loop", "productivity"]
+}
