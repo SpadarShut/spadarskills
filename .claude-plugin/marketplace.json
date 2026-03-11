@@ -1,0 +1,26 @@
+{
+  "name": "spadarskills",
+  "owner": {
+    "name": "Pavel Shut",
+    "email": "sp.shut@gmail.com"
+  },
+  "metadata": {
+    "description": "A collection of Claude Code plugins by spadarshut"
+  },
+  "plugins": [
+    {
+      "name": "nudge-hitl",
+      "source": "./nudge-hitl",
+      "description": "Plays a sound nudge when Claude finishes and is waiting for your input. Cancels when you return.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pavel Shutski"
+      },
+      "homepage": "https://github.com/spadarshut/spadarskills/tree/main/nudge-hitl",
+      "repository": "https://github.com/spadarshut/spadarskills",
+      "license": "MIT",
+      "keywords": ["notification", "sound", "hitl", "human-in-the-loop", "productivity"],
+      "category": "productivity"
+    }
+  ]
+}
