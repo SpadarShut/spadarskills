@@ -9,17 +9,17 @@
   },
   "plugins": [
     {
-      "name": "nudge-hitl",
-      "source": "./nudge-hitl",
-      "description": "Plays a sound nudge when Claude finishes and is waiting for your input. Cancels when you return.",
+      "name": "idle-alert",
+      "source": "./idle-alert",
+      "description": "Plays a sound alert when Claude is idle and waiting for your input. Configurable delay and sound.",
       "version": "1.0.0",
       "author": {
-        "name": "Pavel Shutski"
+        "name": "Pavel Shut"
       },
-      "homepage": "https://github.com/spadarshut/spadarskills/tree/main/nudge-hitl",
+      "homepage": "https://github.com/spadarshut/spadarskills/tree/main/idle-alert",
       "repository": "https://github.com/spadarshut/spadarskills",
       "license": "MIT",
-      "keywords": ["notification", "sound", "hitl", "human-in-the-loop", "productivity"],
+      "keywords": ["notification", "sound", "idle", "alert", "productivity"],
       "category": "productivity"
     }
   ]
