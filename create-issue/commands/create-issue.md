@@ -66,10 +66,15 @@ If not authenticated, tell the user to run `gh auth login` and stop.
    - **Create issue** — looks good, create it
    - **Edit** — I want to change something (ask what to change, revise, show again)
 
-8. **Create the issue.** Run:
+8. **Create the issue.** Write the body to a temporary file first to avoid shell escaping issues, then run:
 
    ```bash
-   gh issue create --title "<title>" --body "<body>"
+   TMPFILE=$(mktemp)
+   cat <<'ISSUE_EOF' > "$TMPFILE"
+   <body>
+   ISSUE_EOF
+   gh issue create --title "<title>" --body-file "$TMPFILE"
+   rm -f "$TMPFILE"
    ```
 
    Print the resulting issue URL.
