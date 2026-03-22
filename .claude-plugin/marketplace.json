@@ -21,6 +21,20 @@
       "license": "MIT",
       "keywords": ["notification", "sound", "idle", "alert", "productivity"],
       "category": "productivity"
+    },
+    {
+      "name": "create-issue",
+      "source": "./create-issue",
+      "description": "Create GitHub issues with optional codebase exploration for rich, implementation-ready descriptions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pavel Shut"
+      },
+      "homepage": "https://github.com/spadarshut/spadarskills/tree/main/create-issue",
+      "repository": "https://github.com/spadarshut/spadarskills",
+      "license": "MIT",
+      "keywords": ["github", "issues", "productivity", "project-management"],
+      "category": "productivity"
     }
   ]
 }
